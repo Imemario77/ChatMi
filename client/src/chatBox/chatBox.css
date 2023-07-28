@@ -1,0 +1,161 @@
+.chatBox {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 60px;
+}
+.chatBoxHeader {
+   display: flex;
+   flex-direction: row;
+   gap: 0.5rem;
+   padding: 10px;
+   padding-left: 5px;
+   border-bottom: 0.5px solid black;
+   background-color: ivory;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+.chatBoxImage {
+   width: 3rem;
+   border-radius: 50%;
+   border: 0.5px solid black;
+}
+.ChatBoxName {
+   margin-top: 15px;
+   position: absolute;
+   left: 30%;
+}
+
+.leftArrow {
+   font-size: 2rem;
+   margin-top: 10px;
+}
+
+.sender {
+   height: auto;
+   background-color: gold;
+   width: 10rem;
+   padding: 10px;
+   border-radius: 10px;
+   border-top-right-radius: 0;
+   position: relative;
+   left: 48%;
+   top: 10px;
+   margin-bottom: 13px;
+   font-size: 12px;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   word-wrap: break-word;
+}
+.reciver {
+   font-size: 12px;
+   height: auto;
+   background-color: skyblue;
+   width: 10rem;
+   padding: 10px;
+   border-radius: 10px;
+   border-top-left-radius: 0;
+   position: relative;
+   right: -2%;
+   top: 10px;
+   margin-bottom: 13px;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;word-wrap: break-word;
+}
+
+.ReciverChatBoxTime {
+   position: relative;
+   font-size: 8px;
+   right: -2%;
+}
+
+.senderChatBoxTime {
+   font-size: 8px;
+}
+
+.ChatBoxSendmessage {
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+   bottom: 1px;
+   width: 100%;
+   height: auto;
+   background-color: white;
+   padding: 5px;
+   align-items: center;
+}
+.InputEmoji {
+   width: 100%;
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 15px;
+}
+.InputEmoji:focus {
+   outline: none;
+}
+.ChatBoxSendButton {
+   width: 30px;
+   margin: 5px;
+   height: 30px;
+   padding: 5px;
+   border: 0.5px solid gold;
+   margin-right: 10px;
+   background-color: gold;
+   border-radius: 50%;
+   position: relative;
+}
+.sendmessagePlane {
+   position: absolute;
+   top: 4px;
+   left: 0px;
+   margin-right: 3px;
+   color: white;
+   font-size: 1.5rem;
+}
+
+.chatBoxHeader a {
+   color: black;
+   cursor: none;
+}
+
+.startChat {
+   font-weight: 300;
+   font-size: 20px;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.startChat a {
+   text-decoration: none;
+   color: black;
+}
+
+.notifybellholder {
+   position: static;
+   margin-left: 62%;
+   margin-top: 3%;
+}
+
+.notifybell {
+   font-size: 1.4rem;
+}
+
+.notifycount {
+   position: absolute;
+   background-color: red;
+   width: 1rem;
+   height: 1rem;
+   text-align: center;
+   border-radius: 50%;
+   color: white;
+   top: -0.1rem;
+   font-size: 15px;
+   right: 1.4rem;
+}
+
+.enptyspace {
+   width: 100%;
+   height: 80px;
+}

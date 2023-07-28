@@ -1,0 +1,64 @@
+.AddChat {
+   display: flex;
+   flex-direction: column;
+}
+.back-search {
+   height: auto;
+   background-color: ivory;
+   padding: 10px;
+   display: flex;
+   border-bottom: 0.5px solid black;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+.AddChatArrow {
+   font-size: 2rem;
+   /* margin-top: 10px; */
+}
+
+.back-search input {
+   height: 1.5rem;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 5px;
+   margin-left: 10px;
+   text-align: left;
+   border: 0px;
+   cursor: none;
+   background-color: ivory;
+}
+.back-search input:focus {
+   outline: none;
+}
+
+.NoResult {
+   text-align: center;
+   font-size: 15px;
+   margin-top: 20px;
+}
+.searchResultImage {
+   width: 3rem;
+   border-radius: 50%;
+   border: 0.5px solid black;
+}
+
+.searchResult {
+   padding: 15px;
+   display: flex;
+   gap: 1rem;
+   padding-bottom: 5px;
+}
+.searchResult span {
+   margin-top: 8.3px;
+}
+.back-search a {
+   color: black;
+   cursor: none;
+}
+.searchedAnchorTag {
+   color: black;
+   text-decoration: none;
+   cursor: none;
+}

@@ -1,0 +1,70 @@
+.userProfileHolder {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 80px;
+}
+.userProfileImageHolder {
+   align-self: center;
+   position: relative;
+}
+.userProfileImage {
+   border-radius: 50%;
+   width: 10rem;
+   border: 0.2px solid gold;
+}
+
+.Profileinfo {
+   display: flex;
+   margin: 0 10px;
+   gap: 0.5rem;
+   padding: 10px 10px 0;
+   margin-left: 25px;
+}
+
+.mainInfo {
+   display: flex;
+   font-size: 10px;
+   flex-direction: column;
+   gap: 0.4rem;
+   margin-left: 15px;
+   padding-bottom: 5px;
+   margin-top: 8px;
+}
+
+.ProfileIconsInfo {
+   color: grey;
+   font-size: 1.5rem;
+   align-self: center;
+}
+
+.ProfileIconEdit {
+   font-size: 1.4rem;
+   color: grey;
+   align-self: center;
+   position: absolute;
+   left: 85%;
+}
+
+.profileInput {
+   width: 90%;
+   height: 30px;
+   border: 0px;
+   border-bottom: 1px solid black;
+   margin-bottom: 10px;
+}
+
+.profileInput:focus {
+   outline: none;
+}
+
+.profileSave {
+   padding: 20px 0 5px;
+   font-size: 15px;
+   margin-left: 85%;
+}
+
+.modelProfileDisplay {
+   display: flex;
+   flex-direction: column;
+}

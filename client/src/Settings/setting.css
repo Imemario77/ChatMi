@@ -1,0 +1,71 @@
+.SettingsHeading {
+   margin-top: 5px;
+   font-size: 22px;
+   margin-left: 15px;
+}
+
+.Settingsimage {
+   width: 4rem;
+   border-radius: 50%;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: 0.1px solid black;
+}
+
+.Settingsholder {
+   display: flex;
+   margin-top: 60px;
+   border-bottom: 0.1px solid black;
+   padding-bottom: 10px;
+}
+a {
+   text-decoration: none;
+   cursor: none;
+}
+.SettingsName {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 18px;
+   margin-left: 20px;
+   text-transform: capitalize;
+   color: black;
+}
+.AboutMe {
+   font-size: 15px;
+   font-weight: 200;
+}
+
+.realName {
+   font-weight: 350;
+   font-size: 19px;
+}
+.openaccountsetting {
+   font-size: 2rem;
+   color: grey;
+   align-self: center;
+}
+
+.singleSettingholder {
+   margin: 20px 20px 0px;
+   padding-left: 5px;
+   padding-top: 5px;
+   display: flex;
+   gap: 0.5rem;
+}
+.singleSettingholdertext {
+   padding-left: 15px;
+   display: flex;
+   flex-direction: column;
+   gap:0;
+}
+
+.singleSettingholdertext span {
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.singleSettingholdertext p {
+   font-size: 12px;
+   font-weight: 200;
+}

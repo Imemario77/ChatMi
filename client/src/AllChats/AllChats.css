@@ -1,0 +1,59 @@
+.AllChats {
+   height: 45px;
+   background-color: #fff;
+   padding: 20px;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: row;
+   border-top: 0.1px solid black;
+   margin-bottom: 5px;
+}
+
+.chatImage {
+   width: 3.5rem;
+   border-radius: 50%;
+   border: 0.5px solid black;
+}
+.ChatName {
+   /* position: relative; */
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+.chat-Name {
+   font-size: 15px;
+   margin-left: 1rem;
+   margin-top: 5px;
+}
+
+.lastMessage {
+   margin-left: 1rem;
+   font-weight: 250;
+   font-size: 12px;
+}
+.socketLastMessage {
+   margin-left: 1rem;
+   font-weight: 500;
+   font-size: 16px;
+}
+.online {
+   position: absolute;
+   color: green;
+   left: 40px;
+   bottom: -0.8rem;
+   background-color: white;
+   border-radius: 50%;
+   width: 0.8rem;
+   height: 0.8rem;
+   border: 1px solid gold;
+}
+
+.chatOnline {
+   position: relative;
+}
+
+.chatLink {
+   text-decoration: none;
+   color: black;
+   cursor: none;
+}

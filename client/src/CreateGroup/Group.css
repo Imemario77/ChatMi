@@ -1,0 +1,126 @@
+.NewGroup {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin: 0 5px;
+}
+
+.NewGroupChildHolder {
+   margin-left: 10px;
+}
+.CreateGroupAddParticipant {
+   font-size: 10px;
+}
+
+.CreateGroupParticipant {
+   display: flex;
+   gap: 1rem;
+   padding: 5px;
+   margin: 8px 0 5px 15px;
+   position: relative;
+}
+
+.CreateGroupParticipant span {
+   margin: 10px 10px 10px 1px;
+}
+.addParticipantgoodstatus {
+   position: absolute;
+   background-color: gold;
+   border-radius: 10px;
+   color: ivory;
+   top: -6px;
+   left: 80%;
+   font-size: 15px;
+   padding: 5px;
+   border: 0.5px solid black;
+}
+
+.DisplayParticipantHolder {
+   display: flex;
+   gap: 0.5rem;
+   margin: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+   overflow: scroll;
+   height: auto;
+   width: auto;
+}
+.displayAddedGroupParticipant {
+   display: flex;
+   flex-direction: column;
+   gap: 0.1rem;
+   position: relative;
+   text-align: center;
+   height: auto;
+   width: auto;
+   margin-left: 5px;
+   align-items: center;
+}
+
+.displayAddedGroupParticipant span {
+   font-size: 12px;
+   font-weight: 150;
+}
+
+.removeParticipant {
+   position: absolute;
+   background-color: white;
+   border-radius: 50%;
+   color: gray;
+   top: 1.3rem;
+   left: 65%;
+   font-size: 18px;
+   border: 1px solid white;
+}
+
+.added {
+   left: 75%;
+}
+
+.GroupImageTextHolder {
+   display: flex;
+   gap: 1rem;
+   padding: 10px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   position: fixed;
+   margin-top: 58px;
+   width: 100%;
+   z-index: 1;
+   background-color: white;
+}
+
+.GroupImage {
+   margin-left: 15px;
+   position: ;
+   width: 3rem;
+   border-radius: 50%;
+   border: 1px solid black;
+   margin-bottom: 10px;
+}
+
+.GroupImageTextHolder input {
+   width: 100%;
+   height: 30px;
+   align-self: center;
+   border: 0px;
+   border-bottom: 1px solid gold;
+}
+
+.GroupImageTextHolder input:focus {
+   outline: none;
+}
+
+.showParticipant {
+   padding: 5px 5px;
+   margin: 0 5px;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: scroll;
+   margin-top: 180px;
+}
+
+.DisplayParticipantMapHolder {
+   margin: 10px;
+   width: 4rem;
+}

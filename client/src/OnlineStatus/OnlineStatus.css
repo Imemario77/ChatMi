@@ -1,0 +1,15 @@
+.dot {
+   position: absolute;
+   color: green;
+   left: 35px;
+   bottom: 1rem;
+   background-color: white;
+   border-radius: 50%;
+   width: 0.8rem;
+   height: 0.8rem;
+   border: 1px solid gold;
+}
+.dotlink {
+   color: black;
+   text-decoration: none;
+}
